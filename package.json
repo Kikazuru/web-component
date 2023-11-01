@@ -1,0 +1,23 @@
+{
+  "name": "etix-widget",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "tailwind": "tailwind build ./src/index.css -o ./src/output.css",
+    "dev": "npm run tailwind && vite",
+    "build": "npm run tailwind && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "sass": "^1.69.5",
+    "tailwindcss": "^3.3.5",
+    "vite": "^4.3.4"
+  }
+}
